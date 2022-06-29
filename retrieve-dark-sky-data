@@ -9,7 +9,6 @@ function forecast(days_in_future) {
   var month = date.getMonth();
   var day = date.getDate();
 
-  //All you need to do is get [twelveToday_unix_seconds] somehow. Don't ask how. I have NO idea.
   var today = new Date(year,month,day);
   today = today.getTime()+43200000
   twelveToday_unix_seconds = today/1000
